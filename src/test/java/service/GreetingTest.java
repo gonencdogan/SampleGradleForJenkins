@@ -21,4 +21,11 @@ class GreetingTest {
 
 		assertThat(result).isEqualTo("Hello gonenc!");
 	}
+
+	@Test
+	void shouldGreet2() {
+		String result = sut.greet("gonenc");
+
+		assertThat(result).contains("gonenc");
+	}
 }
