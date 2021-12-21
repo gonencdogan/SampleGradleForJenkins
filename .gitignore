@@ -4,3 +4,7 @@
 /out/
 /out/production/classes/
 /out/test/classes/
+.settings
+
+#IDE metadata
+**.idea/**
